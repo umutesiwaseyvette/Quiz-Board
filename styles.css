@@ -1,4 +1,26 @@
 h1{
     text-align: center;
-    color: #ffff;
+    color: bisque;
+}
+
+.jumbotron{
+background-color: rgb(94, 190, 194);
+    background-attachment:fixed;
+}
+.well{
+    background-color: powderblue;
+
+}
+body{
+    background-image: url("https://blog.macsales.com/wp-content/uploads/2018/06/Mojave.jpg");
+}
+h3{
+    color: black;
+}
+P{
+    color: black;   
+}
+input{
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
