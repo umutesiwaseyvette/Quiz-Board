@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,8 +11,59 @@
      <!-- Optional theme
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
      <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    
-</body>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h2> QUIZ BOARD</h2>
+                <P>The goal of this project is to create a project that allows the user to answer questions from a multiple choice questions</P>
+            </div>
+            <h3><em>Answer all the questions correctly</h3>
+                <div class="well">
+                        <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                            <p><strong> Q1. Which of the following is an advantage of using JavaScript?</strong></p>
+                            <br>
+                            <input type="radio" name="question1" id="mc" value="wrong">less server interaction<br>
+                            <input type="radio" name="question1" id="mc" value="wrong">immediate feedback to the visitors<br>
+                            <input type="radio" name="question1" id="mc" value="wrong">increased interactivity<br>
+                            <input type="radio" name="question1" id="mc" value="correct">All of the above<br>
+
+                </div>
+                <div class="well">
+                        <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                            <p><strong> Q2. Which built-in method returns the calling string value converted to lower case?</strong></p>
+                            <br>
+                            <input type="radio" name="question2" id="mc" value="correct">toLowerCase<br>
+                            <input type="radio" name="question2" id="mc" value="worng">toLower<br>
+                            <input type="radio" name="question2" id="mc" value="wrong">none of the above<br>
+                </div>
+                <div class="well">
+                        <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                            <p><strong> Q3. Which of the following function of Array object sorts the elements of an array?</strong></p>
+                            <br>
+                            <input type="radio" name="question3" id="mc" value="wrong">toSource<br>
+                            <input type="radio" name="question3" id="mc" value="correct">sort<br>
+                            <input type="radio" name="question3" id="mc" value="wrong">toString<br>
+                </div>
+                <div class="well">
+                        <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                            <p><strong> Q4. Which of the following function of String object executes the search for a match between a regular expression and a specified string?</strong></p>
+                            <br>
+                            <input type="radio" name="question4" id="mc" value="wrong">concat()<br>
+                            <input type="radio" name="question4" id="mc" value="worng">match()<br>
+                            <input type="radio" name="question4" id="mc" value="correct">search()<br>
+                </div>
+                  <div class="well">       
+                        <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                            <p><strong> Q5. What are JavaScript Data Types?</strong></p>
+                            <br>
+                            <input type="radio" name="question5" id="mc" value="wrong">number<br>
+                            <input type="radio" name="question5" id="mc" value="correct">string<br>
+                            <input type="radio" name="question5" id="mc" value="wrong">boolean<br>
+                            <input type="radio" name="question5" id="mc" value="wrong">object<br>
+                            <input type="radio" name="question5" id="mc" value="wrong">undefined<br>
+                            <input type="radio" name="question5" id="mc" value="correct">all of the above<br>
+                </div>
+        </div>
+    </body>
 </html>
