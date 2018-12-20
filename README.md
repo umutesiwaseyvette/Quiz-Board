@@ -16,7 +16,7 @@ In this quiz board one is encouraged to answer all the questions witout failure:
 * CSS
 * BOOTSTRAP
 * MARKDOWN
-# contact information
+## contact information
 * Tel: +250788582184
 * Email: rwjpyy@gmail.com
 ## licence and copyright information
