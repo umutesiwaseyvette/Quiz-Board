@@ -19,6 +19,6 @@ In this quiz board one is encouraged to answer all the questions witout failure:
 ## contact information
 * Tel: +250788582184
 * Email: rwjpyy@gmail.com
-## licence and copyright information
+## license and copyright information
 * MIT license
 * copyright(c)2018 UMUTESIWASE Yvette
