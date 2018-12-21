@@ -3,7 +3,7 @@ QUIZ BOARD
 ## Author
 UMUTESIWASE Yvette
 ## Setup instructions
-Run this link: 
+Run this link:  https://umutesiwaseyvette.github.io/Quiz-Board/
 ## BDD
 
 In this quiz board one is encouraged to answer all the questions witout failure:
