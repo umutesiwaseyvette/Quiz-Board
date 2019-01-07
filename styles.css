@@ -27,7 +27,13 @@ input{
 #fifth-p {
     visibility: hidden;
     background-color: aquamarine;
-    height: 150px;
+    height: 200px;
+}
+#fifth-p p{
+text-align: center;
+transform: translate(0%,50%);
+font-size: 40px;
+background-size: 10px;
 }
 
 body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
